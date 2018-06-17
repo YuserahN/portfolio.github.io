@@ -1,0 +1,167 @@
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+
+.jumbotron {
+  height: 100%;
+}
+
+.jumbotron.text-center {
+  background-color: #4a766e;
+  background-color: rgba(300, 94, 64, 0.5);
+  background-color: #20b2aa;
+  color: #e0dfdc;
+  padding-top: 8%;
+  padding-bottom: 6%;
+  letter-spacing: 0.15em;
+
+  text-shadow: 4px 4px 4px grey, 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+#intro1 {
+  font-size: 5.5em;
+}
+#intro2 {
+  font-size: 2.5em;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.bg-grey {
+  background-color: #e8e8e8;
+}
+
+#about {
+  padding-bottom: 5%;
+  letter-spacing: 0.08em;
+}
+
+.abtMe,
+.progressBars {
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.abtMe {
+  line-height: 30px;
+  letter-spacing: 0.05em;
+}
+
+.progress-bar.progress-bar-success {
+  /*background-color: #586949; */
+  background-color: #4a766e;
+  background-color: rgba(300, 94, 64, 0.5);
+  background-color: #20b2aa;
+  text-align: left;
+  padding-left: 3%;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top {
+  background: #4a766e;
+  background: grey;
+  background-color: #20b2aa;
+  border-bottom: 1px solid #20b2aa;
+}
+
+.sectionTitle {
+  padding-bottom: 3%; 
+  font-size: 3em; 
+}
+
+#projects {
+  padding-bottom: 5%;
+  letter-spacing: 0.08em;
+}
+
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+#contact {
+  background-color: rgba(300, 94, 64, 0.5);
+  background-color: #20b2aa;
+  color: #fff;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  letter-spacing: 0.08em;
+}
+
+#contactLinks {
+  margin: 20px;
+  background-color: rgba(300, 94, 64, 0.01);
+  border: none;
+  color: #ffffff;
+}
+
+#createdBy {
+  background-color: #181818;
+  padding-bottom: 40px;
+  margin-bottom: 3%;
+  color: #ffffff;
+}
+
+#contactLinks:hover {
+  color: #000000;
+}
+
+.text {
+  color: #20b2aa;
+}
+
+#copyright {
+  padding-top: 5%;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}

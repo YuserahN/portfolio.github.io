@@ -1,0 +1,162 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>My Portfolio</title>  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"> 
+<link rel="stylesheet" type="text/css" href="portfolio.css"> 
+<script src="portfolio.js"></script>
+
+</head> 
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <script>document.body.className += ' fade-out';</script>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span> 
+      </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-nav-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <div class="bg-grey">
+    <div class="jumbotron text-center" id="jumbo">
+      <h1 id="intro1">Welcome To My Portfolio</h1>
+      <p id="intro2">I Am An Aspiring Web Developer</p>
+    </div>
+
+    <div class="container-fluid" id="about">
+      <div class="container">
+        <h1 class="text-center text sectionTitle"> About Me </h1>
+        <div class="row">
+          <div class="col-lg-5 abtMe text-center">
+            <p>Hey There! My name is Yuserah Din. I've been programming for the past 3 years, during which time I've gained proficiency in front end technologies, such as HTML and CSS. I also have experience working with Javascript and other back end languages,
+              such as C#.NET, C++, and Python. I will soon be graduating with a bachelor's degree in Computer Science. My goal is to be a Full Stack Web Developer. </p>
+          </div>
+          <div class="col-lg-2 abtMe text-center">
+
+          </div>
+          <div class="col-lg-5 progressBars">
+            <div class="progress" style="height: 25px;">
+              <div class="progress-bar progress-bar-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">HTML</div>
+            </div>
+
+            <div class="progress" style="height: 25px;">
+              <div class="progress-bar progress-bar-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">CSS</div>
+            </div>
+
+            <div class="progress" style="height: 25px;">
+              <div class="progress-bar progress-bar-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">BOOTSTRAP</div>
+            </div>
+
+            <div class="progress" style="height: 25px;">
+              <div class="progress-bar progress-bar-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">JAVASCRIPT</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid text-center slideanim" id="projects">
+    <h2 class="text sectionTitle">My Projects</h2><br>
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail text">
+          <a href="https://codepen.io/Yuserah/full/xrQyPd/" target="_blank" class="thumbnail">
+         <img src ="http://res.cloudinary.com/ynd/image/upload/v1517856574/weatherAppMockup_hkhcka.jpg" alt = "Weather App Thumbnail" width="400" height="300">
+      </a>
+          <p><strong>Weather App</strong></p>
+          <p>Uses HTML, CSS, Bootstrap, jQuery, JSON, and Dark Sky API</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail text">
+          <a href="https://codepen.io/Yuserah/full/EXzaNv/" target="_blank" class="thumbnail">
+         <img src ="http://res.cloudinary.com/ynd/image/upload/v1517857167/wikiViewerMockup_xdsfr1.jpg" alt = "Weather App Thumbnail" width="400" height="300">
+      </a>
+          <p><strong>Wikipedia Viewer</strong></p>
+          <p>Uses HTML, CSS, Bootstrap, Vanilla JavaScript, jQuery, and JSON</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail text">
+          <a href="https://codepen.io/Yuserah/full/MOqQyo/" target="_blank" class="thumbnail">
+         <img src ="http://res.cloudinary.com/ynd/image/upload/v1517857162/simonMockup_zq64z6.jpg" alt = "Weather App Thumbnail" width="400" height="300">
+      </a>
+          <p><strong>Simon Game</strong></p>
+          <p>Uses HTML, CSS, Bootstrap, and jQuery</p>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+
+      <div class="col-sm-4">
+        <div class="thumbnail text">
+          <a href="https://codepen.io/Yuserah/full/pwZgZy/" target="_blank" class="thumbnail">
+         <img src ="http://res.cloudinary.com/ynd/image/upload/v1517857599/randomQuoteMockup_p5iqay.jpg" alt = "Weather App Thumbnail" width="400" height="300">
+      </a>
+          <p><strong>Random Quote Generator</strong></p>
+          <p>Uses HTML, CSS, Bootstrap, Vanilla JavaScript, and jQuery</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail text">
+          <a href="https://codepen.io/Yuserah/full/GvgwNL/" target="_blank" class="thumbnail">
+         <img src ="http://res.cloudinary.com/ynd/image/upload/v1517860228/twitchStreamersMockup_nzme0i.jpg" alt = "Weather App Thumbnail" width="400" height="300">
+      </a>
+          <p><strong>Twitch Streamers</strong></p>
+          <p>Uses HTML, CSS, Bootstrap, Vanilla JavaScript, jQuery, JSON, and AJAX</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail text">
+          <a href="https://codepen.io/Yuserah/full/dJmabZ/" target="_blank" class="thumbnail">
+         <img src ="http://res.cloudinary.com/ynd/image/upload/v1517860845/pomodoroMockup_bfqoyg.jpg" alt = "Weather App Thumbnail" width="400" height="300">
+      </a>
+          <p><strong>Pomodoro Clock</strong></p>
+          <p>Uses HTML, CSS, Bootstrap, and jQuery </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid text-center" id="contact">
+    <h1 class="text-center slideanim sectionTitle">Contact Me</h1>
+    <p class="slideanim">
+      <a href="mailto:yuserah@gmail.com"><button style="font-size:20px" id="contactLinks"> <i class="fa fa-envelope"></i></button></a>
+      <a href="https://www.linkedin.com/in/yuserah-din-2b1a10b6" target="_blank"><button style="font-size:20px" id="contactLinks"> <i class="fab fa-linkedin"></i></button></a>
+      <a href="https://www.facebook.com/yuserah.din" target="_blank"><button style="font-size:20px" id="contactLinks"> <i class="fab fa-facebook"></i></button></a>
+      <a href="http://piknu.com/u/yuserahdin" target="_blank"><button style="font-size:20px" id="contactLinks"> <i class="fab fa-instagram"></i></button></a>
+      <p>
+
+        <p id="copyright">&copy Yuserah Din 2018</p>
+
+  </div>
+
+  </div>
+</body>
+
+</html> 
